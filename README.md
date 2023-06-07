@@ -9,7 +9,6 @@ catkin_make
 #### 进入到搭建好的openpcdet环境
 ```python
 conda activate pcdet
-pip install --user rospkg catkin_pkg
 pip install pyquaternion
  
 sudo apt-get install ros-melodic-pcl-ros
