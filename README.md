@@ -1,0 +1,20 @@
+
+cd pointpillars_ros/src
+
+
+#### 进入到搭建好的openpcdet环境
+conda activate pcdet
+pip install --user rospkg catkin_pkg
+pip install pyquaternion
+ 
+sudo apt-get install ros-melodic-pcl-ros
+sudo apt-get install ros-melodic-jsk-recognition-msg
+sudo apt-get install ros-melodic-jsk-rviz-plugins
+catkin_make
+
+在ros.py文件中修改预训练权重和config文件，改成你自己的路径即可。如果是你自己的雷达或相机219行换成你自己的话题名
+
+#### 运行
+conda activate pcdet
+source devel/setup.bash
+roslaunch pointpillars_ros pointpillars.launch
