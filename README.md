@@ -1,4 +1,5 @@
 ```
+mkdir pointpillars_ros
 cd pointpillars_ros
 git clone https://github.com/cat722/pp_realtime.git
 catkin_make
