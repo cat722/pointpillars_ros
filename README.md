@@ -11,7 +11,6 @@ catkin_make
 conda activate pcdet
 pip install pyquaternion
  
-sudo apt-get install ros-melodic-pcl-ros
 sudo apt-get install ros-melodic-jsk-recognition-msg
 sudo apt-get install ros-melodic-jsk-rviz-plugins
 ```
