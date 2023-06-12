@@ -16,7 +16,7 @@ sudo apt-get install ros-melodic-jsk-rviz-plugins
 ```
 
 
-#### 运行
+#### run
 ```python
 conda activate pcdet
 source devel/setup.bash
