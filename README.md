@@ -23,6 +23,7 @@ source devel/setup.bash
 roslaunch pointpillars_ros pointpillars.launch
 ```
 Then just have a fun!
+# Making Lidar Object Detection Great Again!!!
 
 ## TODO List
 Real-time tracking based on detection results
